@@ -1,0 +1,1 @@
+Exercise 6: Yes, but the class cannot be public. According to Java standards, we should declare every class in its own source file.

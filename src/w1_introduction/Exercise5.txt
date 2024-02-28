@@ -1,0 +1,1 @@
+Exercise 5: The file is not in the declared package. Solution: Move to that package
