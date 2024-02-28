@@ -1,0 +1,41 @@
+a) 0 or 11 or 101
+0 | 11 | 101
+
+b) only 0s
+0*
+
+c) all binary strings
+(0|1)*
+
+d) all binary strings except empty string
+(0|1)(0|1)*
+
+e) begins with 1, ends with 1
+1|(0|1)*|1
+
+f) ends with 00
+(0|1)*00
+
+g) contains at least three 1s
+(0|1)*1(0|1)*1(0|1)*1(0|1)*
+
+h) contains at least three consecutive 1s
+(0|1)*111(0|1)*
+
+i) contains the substring 110
+(0|1)*110(0|1)*
+
+j) doesn't contain the substring 110
+(0|10)*1*
+
+k) has at least 3 characters, and the third character is 0
+(0|1)(0|1)0(0|1)*
+
+l) starts and ends with the same character
+1(0|1)*1 | 0(0|1)*0
+
+m) starts with 0 and has odd length, or starts with 1 and has even length
+0((0|1)(0|1))* | 1(0|1)((0|1)(0|1))*
+
+n) length is at least 1 and at most 3
+(0|1)|(0|1)(0|1)|(0|1)(0|1)(0|1)
