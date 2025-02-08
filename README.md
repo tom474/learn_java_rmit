@@ -11,8 +11,8 @@ A structured guide to learning Java programming, covering fundamental and advanc
 - 01 - Introduction to Java Programming
 - 02 - Control Structures and Methods
 - 03 - Arrays and Strings
-- 04 - Object-Oriented Programming (OOP) Basics 1
-- 05 - Object-Oriented Programming (OOP) Basics 2
+- 04 - Basic Object-Oriented Programming
+- 05 - Advanced Object-Oriented Programming
 - 06 - File I/O
 - 07 - Inheritance
 - 08 - Polymorphism
